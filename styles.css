@@ -17,10 +17,10 @@ body::before {
 
 @keyframes glitter {
   0% {
-    background-position: 50px 0; /* Start position */
+    background-position: 50px 0; 
   }
   100% {
-    background-position: 20px 20px; /* End position */
+    background-position: 20px 20px; 
   }
 }
 body {
@@ -29,12 +29,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #000;
+  width: 100%;
   height: 90vh;
   overflow: hidden;
-}
-
-.container {
-  position: relative;
 }
 h1 {
   font-weight: 500;
